@@ -1,0 +1,61 @@
+.contact
+    .contact__header
+        br
+        h2.contact__title Let's Talk About You
+        p.contact__parag If you think we'd be a good fit for your next project or have an idea you'd like to share with us, we'd love to hear all about it. 
+
+        .email
+            form(action="send email")
+            label(for="name")
+            input(type="text" placeholder="  Your Name..." class="inputname")
+            label(for="mail")
+            input(type="text" placeholder="  Your Email..." class="mail")
+        label(for="message")
+        textarea(name="message", cols="50", rows="10" placeholder="  Your Message...")
+    
+        .submit
+            img(src="img/submit.png", class="submitbtn")
+
+section 
+    h1 Contact Us
+    .contact_us
+        .contact_us1
+            h3 General Enquiries
+            p.cnt_parag hello@daikatana.com
+        
+        .contact_us1
+            h3 Work Enquiries
+            p.cnt_parag work@daikatana.com
+        
+        .contact_us1
+            h3 Career Enquiries
+            p.cnt_parag jobs@daikatana.com
+
+    h1 Our Locations
+    .locations
+        .locations1
+            h3.loactionstext Charlottesville
+            p.loc_parag Lorem Ipsum 42 Dolor sit Amet N3 Charlottesville, VA 22902
+        
+        .locations1
+            h3.loactionstext San Francisco
+            p.loc_parag 972 Dummy Street, 5th Floor San Francisco, CA 94103
+        
+        .locations1
+            h3.loactionstext Austin
+            p.loc_parag 701 Lorem Ipsum, Suite 1612 #1919 Austin, TX 78701
+
+.map
+    <iframe src="https://www.google.com/maps/d/embed?mid=1fmxhkZuuTe83GQjsz6htdPk0Rno" width="100%" height="333"></iframe>
+
+.contactbottom
+    br
+    h4 Find Out More
+    img(src="img/findout.png" class="contactbottom__btn")
+
+.footer
+    img(src="img/logo.png" class="logo")
+    nav.nav.footer__nav
+        <a href="blog.pug">Our Blog</a>
+        <a href="#">Twitter</a>
+        <a href="#">Facebook</a>
